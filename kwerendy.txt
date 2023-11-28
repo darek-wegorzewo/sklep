@@ -1,0 +1,6 @@
+ZAD1
+SELECT nazwa FROM towary where promocja = 1
+ZAD2
+SELECT cena FROM towary where nazwa = 'cienkopis
+ZAD3
+SELECT dostawcy.nazwa, COUNT(towary.id) as ilosc FROM dostawcy, towary WHERE dostawcy.id = towary.idDostawcy GROUP BY dostawcy.nazwa
